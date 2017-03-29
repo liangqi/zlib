@@ -33,6 +33,10 @@
 
 #include "zconf.h"
 
+#include <qglobal.h>
+#undef ZEXTERN
+#define ZEXTERN Q_CORE_EXPORT
+
 #ifdef __cplusplus
 extern "C" {
 #endif
